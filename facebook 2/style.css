@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 1100px;
+    height: 700px;
+    background-color: #E6ECF3;
+
+}
+.navbar{
+    width: inherit;
+    height: 50px;
+    background-color: #3B5998;
+
+}
+.s_logo{
+    width: 150px;
+    height: inherit;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    float: left;
+}
+.S_menu{
+    width: 90px;
+    height: inherit;
+  
+    display: flex;
+  align-items: center;
+    float: left;
+    padding: 0px 10px;
+    color: #24488E;
+}
+.S_menu i{
+    margin: 0 5px;
+}
+.navbar input{
+    width: 200px;
+}
+.s_slider{
+    width: 400px;
+    height: inherit;
+ 
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img{
+    width: 300px;
+    height: inherit;
+ 
+    float: right;
+    object-position: center;
+  
+}
+.img img{
+    width: 30px;
+    height: 30px;
+   margin-top: 15px;
+   float: left;
+}
+.img ul li a{
+    text-decoration: none;
+margin: 5px;
+color: white;
+}
+.img ul li{
+    list-style-type: none;
+}
+.center{
+    width: 1075px;
+    height: 650px;
+    /* background-color: red; */
+    margin-left: 13px;
+}
+.img7 {
+    width:inherit ;
+    height: 250px;
+
+}
+.img7 img{
+    width: inherit;
+    height: 250px;
+    object-fit: cover;
+}
+.lor{
+    width:inherit ;
+    height: 250px;
+ background-color: white;
+    float: left;
+}
+.lor img{
+    width: 150px;
+    height: 150px;
+    border: solid white 5px;
+  position: relative;
+  top: -100px;
+  left: 14px;
+  float: left;
+}
+.lor h2{
+    float: left;
+    margin: 20px;
+    color: #182D54;
+}
+.push{
+    width: 400px;
+    height: 70px;
+   background-color: white;
+float: right;
+display: flex;
+align-items: center;
+}
+.push button{
+    background-color: #F4F6F4;
+    margin: 5px;
+}
+.push button i{
+    font-size: 10px;
+    margin: 5px;
+  
+}
+.none{
+    width: inherit;
+    height: 120px;
+
+    margin-top: -100px;
+  display: flex;
+  justify-content: start;
+}
+.temu{
+    width: 300px;
+    height: 100px;
+    background-color: #F1F3F8;
+    margin-top: -90px;
+ padding-left: 20px;
+ float: left;
+}
