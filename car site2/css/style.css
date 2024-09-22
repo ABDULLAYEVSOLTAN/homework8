@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+
+
+}
+.logo{
+    width: 340px;
+    height: inherit;
+   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+color: #D5C934;
+float: left;
+}
+.menu{
+    width: 1535px;
+    height: inherit;
+  
+
+}
+.what{
+    width: 300px;
+    height: inherit;
+  
+    float: left;
+}
+.navbarbig{
+    width: 850px;
+    height: inherit;
+ 
+    float: left;
+}
+.navbarbig ul li{
+list-style: none;
+}
+.navbarbig ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 15px;
+color: white;
+transition: 0.3s;
+  
+}
+.img{
+    width: inherit;
+    height: 695px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.pinimg.com/originals/2a/c7/a1/2ac7a1de623008026f0878da4546d740.jpg);
+background-position: center;
+
+}
+.navbarbig :hover{
+    color: black;
+}
